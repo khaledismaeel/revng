@@ -57,7 +57,7 @@ target_tuple_tree_generator(
   ROOT_TYPE
   Function
   SCHEMA_PATH
-  "${CMAKE_BINARY_DIR}/yield-internal-schema.yml"
+  "${CMAKE_SOURCE_DIR}/schemas/yield-internal-schema.yml"
   SEPARATE_STRING_TYPES
   "MetaAddress"
   SCALAR_TYPES
@@ -90,7 +90,7 @@ target_tuple_tree_generator(
   ROOT_TYPE
   CrossRelations
   SCHEMA_PATH
-  "${CMAKE_BINARY_DIR}/yield-cross-relations.yml"
+  "${CMAKE_SOURCE_DIR}/schemas/yield-cross-relations.yml"
   SEPARATE_STRING_TYPES
   "MetaAddress"
   SCALAR_TYPES
