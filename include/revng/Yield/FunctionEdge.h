@@ -7,13 +7,7 @@
 #include "revng/Model/VerifyHelper.h"
 #include "revng/Yield/FunctionEdgeBase.h"
 
-/* TUPLE-TREE-YAML
-name: FunctionEdge
-doc: An edge on the CFG
-type: struct
-inherits: FunctionEdgeBase
-fields: []
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 namespace efa {
 class FunctionEdge;

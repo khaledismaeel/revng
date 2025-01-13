@@ -7,13 +7,7 @@
 #include "revng/EarlyFunctionAnalysis/FunctionEdgeBase.h"
 #include "revng/Model/VerifyHelper.h"
 
-/* TUPLE-TREE-YAML
-name: FunctionEdge
-doc: An edge on the CFG
-type: struct
-inherits: FunctionEdgeBase
-fields: []
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/EarlyFunctionAnalysis/Generated/Early/FunctionEdge.h"
 

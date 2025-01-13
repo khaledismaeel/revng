@@ -8,17 +8,7 @@
 #include "revng/Model/NamingConfiguration.h"
 #include "revng/Model/VerifyHelper.h"
 
-/* TUPLE-TREE-YAML
-name: Configuration
-type: struct
-fields:
-  - name: Disassembly
-    type: DisassemblyConfiguration
-    optional: true
-  - name: Naming
-    type: NamingConfiguration
-    optional: true
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/Model/Generated/Early/Configuration.h"
 

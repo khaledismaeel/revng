@@ -11,28 +11,7 @@
 
 #include "Generated/Early/TestClass.h"
 
-/* TUPLE-TREE-YAML
-name: TestClass
-type: struct
-fields:
-  - name: RequiredField
-    type: uint64_t
-  - name: OptionalField
-    type: uint64_t
-    optional: true
-  - name: EnumField
-    type: TestEnum
-  - name: SequenceField
-    sequence:
-      type: SortedVector
-      elementType: uint64_t
-  - name: ReferenceField
-    reference:
-      pointeeType: uint64_t
-      rootType: TestClass
-key:
-  - RequiredField
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 namespace ttgtest {
 class TestClass : public ttgtest::generated::TestClass {

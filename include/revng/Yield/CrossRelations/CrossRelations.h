@@ -10,15 +10,7 @@
 #include "revng/Yield/CallGraphs/Graph.h"
 #include "revng/Yield/CrossRelations/RelationDescription.h"
 
-/* TUPLE-TREE-YAML
-name: CrossRelations
-type: struct
-fields:
-  - name: Relations
-    sequence:
-      type: SortedVector
-      elementType: RelationDescription
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/Yield/CrossRelations/Generated/Early/CrossRelations.h"
 

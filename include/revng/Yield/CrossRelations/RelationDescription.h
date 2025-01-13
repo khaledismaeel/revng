@@ -6,22 +6,7 @@
 
 #include "revng/ADT/SortedVector.h"
 
-/* TUPLE-TREE-YAML
-
-name: RelationDescription
-type: struct
-fields:
-  - name: Location
-    type: string
-  - name: IsCalledFrom
-    sequence:
-      type: SortedVector
-      elementType: string
-    optional: true
-key:
-  - Location
-
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/Yield/CrossRelations/Generated/Early/RelationDescription.h"
 

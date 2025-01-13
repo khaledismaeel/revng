@@ -7,23 +7,7 @@
 #include "revng/Model/VerifyHelper.h"
 #include "revng/Yield/TaggedString.h"
 
-/* TUPLE-TREE-YAML
-
-name: TaggedLine
-type: struct
-fields:
-  - name: Index
-    type: uint64_t
-
-  - name: Tags
-    sequence:
-      type: SortedVector
-      elementType: TaggedString
-
-key:
-  - Index
-
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/Yield/Generated/Early/TaggedLine.h"
 

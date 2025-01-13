@@ -8,21 +8,7 @@
 #include "revng/Model/Type.h"
 #include "revng/Model/TypeDefinition.h"
 
-/* TUPLE-TREE-YAML
-name: TypedefDefinition
-doc: |-
-  A `typedef` type.
-
-  Note, that unlike in C, two `typedef`s aliasing the same type are actually
-  distinct types.
-type: struct
-inherits: TypeDefinition
-fields:
-  - name: UnderlyingType
-    type: Type
-    doc: The type this `typedef` is aliasing.
-    upcastable: true
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/Model/Generated/Early/TypedefDefinition.h"
 

@@ -9,31 +9,7 @@
 #include "revng/Model/Type.h"
 #include "revng/Model/VerifyHelper.h"
 
-/* TUPLE-TREE-YAML
-name: Argument
-doc: |
-  The argument of a `CABIFunctionType`.
-type: struct
-fields:
-  - name: Index
-    type: uint64_t
-    doc: The argument index.
-  - name: Type
-    type: Type
-    doc: The type of the argument.
-    upcastable: true
-  - name: CustomName
-    type: Identifier
-    optional: true
-  - name: OriginalName
-    type: string
-    optional: true
-  - name: Comment
-    type: string
-    optional: true
-key:
-  - Index
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/Model/Generated/Early/Argument.h"
 

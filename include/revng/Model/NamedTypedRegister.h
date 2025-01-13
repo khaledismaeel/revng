@@ -9,31 +9,7 @@
 #include "revng/Model/Type.h"
 #include "revng/Model/VerifyHelper.h"
 
-/* TUPLE-TREE-YAML
-name: NamedTypedRegister
-type: struct
-doc: |-
-  An argument or return values in a `RawFunctionDefinition`.
-
-  It is basically a pair of a register and a `Type`.
-fields:
-  - name: Location
-    type: Register
-  - name: Type
-    type: Type
-    upcastable: true
-  - name: CustomName
-    type: Identifier
-    optional: true
-  - name: OriginalName
-    type: Identifier
-    optional: true
-  - name: Comment
-    type: string
-    optional: true
-key:
-  - Location
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/Model/Generated/Early/NamedTypedRegister.h"
 

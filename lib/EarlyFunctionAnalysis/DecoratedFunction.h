@@ -10,24 +10,7 @@
 #include "revng/Support/YAMLTraits.h"
 #include "revng/TupleTree/TupleTree.h"
 
-/* TUPLE-TREE-YAML
-name: DecoratedFunction
-doc: A decorated function meant to be used for EFA tests
-type: struct
-fields:
-  - name: Entry
-    type: MetaAddress
-  - name: OriginalName
-    type: string
-  - name: ControlFlowGraph
-    type: efa::ControlFlowGraph
-  - name: Attributes
-    sequence:
-      type: MutableSet
-      elementType: model::FunctionAttribute::Values
-key:
-  - Entry
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "Generated/Early/DecoratedFunction.h"
 

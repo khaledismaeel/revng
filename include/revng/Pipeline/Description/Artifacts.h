@@ -4,24 +4,7 @@
 // This file is distributed under the MIT License. See LICENSE.md for details.
 //
 
-/* TUPLE-TREE-YAML
-name: Artifacts
-doc: Data structure representing a Artifacts
-type: struct
-fields:
-  - name: Kind
-    doc: Artifacts's kind
-    type: string
-    optional: true
-  - name: Container
-    doc: Artifacts's container
-    type: string
-    optional: true
-  - name: SingleTargetFilename
-    doc: The Artifacts's filename to use for a single element
-    type: string
-    optional: true
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/Pipeline/Description/Generated/Early/Artifacts.h"
 

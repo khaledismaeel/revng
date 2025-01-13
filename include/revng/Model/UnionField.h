@@ -9,33 +9,7 @@
 #include "revng/Model/Type.h"
 #include "revng/Model/VerifyHelper.h"
 
-/* TUPLE-TREE-YAML
-name: UnionField
-doc: |-
-  An alternative of a `UnionDefinition`.
-
-  It is composed by a index and the `Type`.
-type: struct
-fields:
-  - name: Index
-    type: uint64_t
-    doc: The index of the alternative within the `union`.
-  - name: CustomName
-    type: Identifier
-    optional: true
-  - name: OriginalName
-    type: string
-    optional: true
-  - name: Comment
-    type: string
-    optional: true
-  - name: Type
-    type: Type
-    doc: The type of this `union` alternative.
-    upcastable: true
-key:
-  - Index
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/Model/Generated/Early/UnionField.h"
 

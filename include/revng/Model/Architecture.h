@@ -6,18 +6,7 @@
 
 #include "llvm/ADT/Triple.h"
 
-/* TUPLE-TREE-YAML
-name: Architecture
-type: enum
-members:
-  - name: x86
-  - name: x86_64
-  - name: arm
-  - name: aarch64
-  - name: mips
-  - name: mipsel
-  - name: systemz
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/Model/Generated/Early/Architecture.h"
 

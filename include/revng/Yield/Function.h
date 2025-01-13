@@ -13,23 +13,7 @@
 #include "revng/Support/MetaAddress/YAMLTraits.h"
 #include "revng/Yield/BasicBlock.h"
 
-/* TUPLE-TREE-YAML
-
-name: Function
-type: struct
-fields:
-  - name: Entry
-    type: MetaAddress
-
-  - name: Blocks
-    sequence:
-      type: SortedVector
-      elementType: BasicBlock
-
-key:
-  - Entry
-
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/Yield/Generated/Early/Function.h"
 

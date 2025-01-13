@@ -7,27 +7,7 @@
 #include "revng/ADT/SortedVector.h"
 #include "revng/Model/VerifyHelper.h"
 
-/* TUPLE-TREE-YAML
-name: CanonicalRegisterValue
-doc: |-
-  A [`Segment`](#Segment) can specify a set of *canonical values* for certain
-  registers.
-  This can be used to represent concepts such as the global pointer, which in
-  certain ABIs, is not set by each function, but it's possible to assume it has
-  a certain value at the entry of the function.
-type: struct
-fields:
-  - name: Register
-    doc: The register for which to specify the canonical value.
-    type: Register
-  - name: Value
-    doc: |-
-      The canonical value that `Register` can be assumed to hold upon
-      function entry.
-    type: uint64_t
-key:
-  - Register
-TUPLE-TREE-YAML */
+// CLANG-FORMAT-INCLUDE-BREAK
 
 #include "revng/Model/Generated/Early/CanonicalRegisterValue.h"
 
