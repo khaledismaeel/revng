@@ -16,6 +16,12 @@ class Schema:
     def __init__(self, raw_schema, base_namespace: str, scalar_types: List[str]):
         self._raw_schema = raw_schema
 
+        v = raw_schema["version"]
+        if type(v) is not int:
+            raise ValueError(f".version must have type int but has type {type(v)}")
+        if v < 1:
+            raise ValueError(f".version is set to {v} but must be >= 1")
+
         self.base_namespace = base_namespace
         self.generated_namespace = f"{base_namespace}::generated"
 
@@ -71,7 +77,7 @@ class Schema:
 
     def _parse_definitions(self):
         definitions = {}
-        for type_schema in self._raw_schema:
+        for type_schema in self._raw_schema["definitions"]:
             type_name = type_schema["type"]
             if type_name == "enum":
                 cls = EnumDefinition

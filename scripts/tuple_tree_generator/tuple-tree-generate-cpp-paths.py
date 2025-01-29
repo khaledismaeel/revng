@@ -18,7 +18,7 @@ def main(args):
 
     print(f"{args.output_dir}/ForwardDecls.h", end=";")
 
-    for definition in raw_schema:
+    for definition in raw_schema["definitions"]:
         print(f"{args.output_dir}/Early/{definition['name']}.h", end=";")
         print(f"{args.output_dir}/Late/{definition['name']}.h", end=";")
 
